@@ -8,7 +8,9 @@ export default function SectionsLayout({ children }: { children: React.ReactNode
 
       <NavBar />
 
-      {children}
+      <div className="flex flex-col gap-24 px-48">
+        {children}
+      </div>
 
     </main>
   );
