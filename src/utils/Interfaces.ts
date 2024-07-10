@@ -9,3 +9,10 @@ export interface ProjectResume {
     description: string
     link: string
 }
+
+export interface TechnologyItem {
+    name: string
+    level: number
+    image: string
+    knowledge: string[]
+}

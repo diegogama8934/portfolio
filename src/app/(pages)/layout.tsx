@@ -1,4 +1,4 @@
-import { NavBar } from "@/components/NavBar";
+import { NavBar } from "@/components/atoms";
 
 export default function SectionsLayout({ children }: { children: React.ReactNode }) {
 

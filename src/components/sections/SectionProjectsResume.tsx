@@ -1,9 +1,9 @@
 import { projectsResume } from "@/utils/Data";
-import { ProjectResumeCard } from "./ProjectResumeCard";
+import { ProjectResumeCard } from "../atoms";
 import Link from "next/link";
 
 export function ProjectsResume() {
-
+  // TODO: Change name
 
   return (
     <div className="flex flex-col gap-12">

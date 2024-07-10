@@ -1,4 +1,4 @@
-import type { ActiveLink, ProjectResume } from "./Interfaces";
+import type { ActiveLink, ProjectResume, TechnologyItem } from "./Interfaces";
 
 
 export const porfolioSections: ActiveLink[] = [
@@ -34,7 +34,7 @@ export const projectsResume: ProjectResume[] = [
     {
         name: "Bolsa de trabajo UAQ",
         objective: "Fuente de trabajo",
-        description: "Un buen lugar para encontrar trabajo o colaboradores",
+        description: "Un buen lugar para encontrar trabajo o colaboradores.",
         link: ""
     },
     {
@@ -42,5 +42,38 @@ export const projectsResume: ProjectResume[] = [
         objective: "Administración de proyectos",
         description: "Integrantes, tareas, fechas, problemas... gestiónalo todo.",
         link: "https://tech-nova-five.vercel.app/dashboard/home"
+    }
+]
+
+export const technologiesPool: TechnologyItem[] = [
+    {
+        name: "React",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+        level: 6,
+        knowledge: [
+            "React router",
+            "Redux",
+            "Zustand"
+        ]
+    },
+    {
+        name: "Next",
+        image: "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
+        level: 5,
+        knowledge: [
+            "Next UI",
+            "Server actions",
+            "Manejar caché"
+        ]
+    },
+    {
+        name: "Figma",
+        image: "https://forosdeia.com/directorio-ia/figma.843/cover-image",
+        level: 9,
+        knowledge: [
+            "Buenas prácticas para el desarrollo",
+            "Variantes",
+            "Componentes"
+        ]
     }
 ]

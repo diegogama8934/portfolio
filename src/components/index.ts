@@ -1,5 +1,0 @@
-export * from "./ActiveLink"
-export * from "./Hero"
-export * from "./NavBar"
-export * from "./ProjectsResume"
-export * from "./ProjectResumeCard"

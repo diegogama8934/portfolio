@@ -1,4 +1,8 @@
-import { Hero, ProjectsResume } from "@/components"
+import {
+  Hero,
+  ProjectsResume,
+  Technologies
+} from "@/components/sections"
 
 export default function HomePage() {
 
@@ -8,6 +12,8 @@ export default function HomePage() {
       <Hero />
 
       <ProjectsResume />
+
+      <Technologies />
     </>
   )
 }

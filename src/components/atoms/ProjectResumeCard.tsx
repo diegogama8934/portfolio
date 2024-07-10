@@ -2,6 +2,7 @@ import type { ProjectResume } from "@/utils/Interfaces";
 import Link from "next/link";
 
 export function ProjectResumeCard({ name, description, link, objective }: ProjectResume) {
+  // TODO: Change name
 
   return (
     <div className="flex flex-col gap-2 w-96 p-8 rounded-lg bg-white shadow items-end">
