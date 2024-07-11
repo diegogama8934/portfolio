@@ -1,5 +1,6 @@
 import { technologiesPool } from "@/utils/Data";
 import { TechnologyItem } from "../atoms";
+import Link from "next/link";
 
 
 export function Technologies() {
@@ -7,7 +8,10 @@ export function Technologies() {
 
   return (
     <div className="flex flex-col gap-12">
-      <h2 className="text-3xl text-zinc-700 font-bold">Tecnologías</h2>
+      <div className="flex justify-between">
+        <h2 className="text-3xl text-zinc-700 font-bold">Tecnologías</h2>
+        <Link className="text-blue-900 font-bold text-lg" href="/aboutMe">Ver más</Link>
+      </div>
       <hr />
       <div className="flex gap-8">
         {

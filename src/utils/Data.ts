@@ -49,7 +49,7 @@ export const technologiesPool: TechnologyItem[] = [
     {
         name: "React",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-        level: 6,
+        level: 4,
         knowledge: [
             "React router",
             "Redux",
@@ -59,7 +59,7 @@ export const technologiesPool: TechnologyItem[] = [
     {
         name: "Next",
         image: "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
-        level: 5,
+        level: 4,
         knowledge: [
             "Next UI",
             "Server actions",
