@@ -1,11 +1,16 @@
 import {
+  Ahorcado,
+  ContactMe,
   Hero,
   ProjectsResume,
   Technologies,
-  ContactMe
 } from "@/components/sections"
 
-export default function HomePage() {
+async function getRandomWord() {
+
+}
+
+export default async function HomePage() {
 
 
   return (
@@ -17,6 +22,8 @@ export default function HomePage() {
       <Technologies />
 
       <ContactMe />
+
+      <Ahorcado word={"Elefante"} />
     </>
   )
 }
