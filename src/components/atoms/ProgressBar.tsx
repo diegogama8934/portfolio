@@ -16,7 +16,7 @@ export function ProgressBar({ level }: { level: number }) {
   }
   return (
     <span className="block w-full h-3 bg-zinc-200 rounded">
-      <span className={`block h-3 bg-green-500 ${levelVariants[level]} rounded`}></span>
+      <span className={`block h-3 ${levelVariants[level]} rounded`}></span>
     </span>
   );
 }

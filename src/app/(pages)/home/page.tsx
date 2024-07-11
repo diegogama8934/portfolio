@@ -1,7 +1,8 @@
 import {
   Hero,
   ProjectsResume,
-  Technologies
+  Technologies,
+  ContactMe
 } from "@/components/sections"
 
 export default function HomePage() {
@@ -14,6 +15,8 @@ export default function HomePage() {
       <ProjectsResume />
 
       <Technologies />
+
+      <ContactMe />
     </>
   )
 }

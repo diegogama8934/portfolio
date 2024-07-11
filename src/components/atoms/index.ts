@@ -1,4 +1,5 @@
 export * from "./ActiveLink"
+export * from "./ContactForm"
 export * from "./NavBar"
 export * from "./ProgressBar"
 export * from "./ProjectResumeCard"
