@@ -8,7 +8,7 @@ export function ProjectResumeCard({ name, description, link, objective }: Projec
     <div className="flex flex-col gap-2 lg:w-96 p-8 rounded-lg bg-white shadow items-end">
 
       <div className="self-start">
-        <h3 className="text-xl text-zinc-700">{name}</h3>
+        <h3 className="lg:text-xl text-lg text-zinc-700">{name}</h3>
         <small className="text-zinc-400">{objective}</small>
       </div>
 

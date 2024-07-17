@@ -10,7 +10,7 @@ export function ProjectsResume() {
 
       <div className="flex justify-between items-center">
         <h2 className="lg:text-3xl text-xl text-zinc-700 font-bold">Proyectos 🚀</h2>
-        <Link className="text-blue-900 font-bold text-lg" href="/projects">Ver más</Link>
+        <Link className="text-blue-900 font-bold lg:text-lg text-sm" href="/projects">Ver más</Link>
       </div>
       <hr />
 

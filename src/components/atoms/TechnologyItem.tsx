@@ -18,7 +18,7 @@ export function TechnologyItem({ name, image, level, knowledge }: TechnologyItem
         />
 
         <div className="flex flex-col flex-1 gap-2">
-          <span className="text-2xl text-zinc-700">{name}</span>
+          <span className="lg:text-xl text-lg text-zinc-700">{name}</span>
           <ProgressBar level={level} />
         </div>
 
@@ -26,7 +26,7 @@ export function TechnologyItem({ name, image, level, knowledge }: TechnologyItem
 
       <ul className="list-disc ml-4 text-zinc-500">
         {
-          knowledge.map((item, index) => <li className="my-2" key={index}>{item}</li>)
+          knowledge.map((item, index) => <li className="my-2 text-sm" key={index}>{item}</li>)
         }
       </ul>
 

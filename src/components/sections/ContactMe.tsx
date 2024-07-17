@@ -7,7 +7,7 @@ export function ContactMe() {
     <div className="flex flex-col gap-12 w-full">
       <div className="flex justify-between items-center">
         <h2 className="lg:text-3xl text-xl text-zinc-700 font-bold">Contáctame 📩</h2>
-        <button className="text-blue-900 font-bold text-lg">Descarga mi CV</button>
+        <button className="text-blue-900 font-bold lg:text-lg text-sm">Descarga mi CV</button>
       </div>
 
       <hr />
