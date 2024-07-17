@@ -18,13 +18,13 @@ export function Ahorcado({ word }: { word: string }) {
   }
 
   return (
-    <div className="flex flex-col gap-12">
+    <div className="hidden lg:flex flex-col gap-12">
 
       <h2 className="text-3xl text-zinc-700 font-bold">Ahorcado</h2>
 
       <hr />
 
-      <form className="flex gap-4 justify-center">
+      <form className="flex gap-4 justify-center bg-gray-500 w-full">
         {
           wordToFind.map((char, index) => (
             <input
@@ -36,6 +36,7 @@ export function Ahorcado({ word }: { word: string }) {
             />
           ))
         }
+
       </form>
     </div>
   )

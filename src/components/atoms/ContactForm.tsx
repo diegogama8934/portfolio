@@ -18,7 +18,7 @@ export function ContactForm() {
   }
 
   return (
-    <form className="w-[420px] flex flex-col gap-4" onSubmit={(e) => handleFormSubmit(e)}>
+    <form className="lg:w-[420px] flex flex-col gap-4" onSubmit={(e) => handleFormSubmit(e)}>
 
       <div className="flex flex-col gap-2">
         <label htmlFor="name" className="text-zinc-700">Nombre</label>
