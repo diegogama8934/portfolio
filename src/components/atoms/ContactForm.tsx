@@ -21,11 +21,11 @@ export function ContactForm() {
     <form className="lg:w-[420px] flex flex-col gap-4" onSubmit={(e) => handleFormSubmit(e)}>
 
       <div className="flex flex-col gap-2">
-        <label htmlFor="name" className="text-zinc-700">Nombre</label>
+        <label htmlFor="name" className="text-zinc-700 lg:text-base text-sm">Nombre</label>
         <input
           type="text"
           id="name"
-          className="p-4 bg-zinc-100 rounded"
+          className="p-4 bg-zinc-100 rounded lg:text-base text-sm"
           placeholder="Tu nombre"
           value={form.name}
           onChange={(e) => handleInputChange(e)}
@@ -33,11 +33,11 @@ export function ContactForm() {
       </div>
 
       <div className="flex flex-col gap-2">
-        <label htmlFor="email" className="text-zinc-700">Correo</label>
+        <label htmlFor="email" className="text-zinc-700 lg:text-base text-sm">Correo</label>
         <input
           type="email"
           id="email"
-          className="p-4 bg-zinc-100 rounded"
+          className="p-4 bg-zinc-100 rounded lg:text-base text-sm"
           placeholder="Escribe tu correo"
           value={form.email}
           onChange={(e) => handleInputChange(e)}
@@ -45,10 +45,10 @@ export function ContactForm() {
       </div>
 
       <div className="flex flex-col gap-2">
-        <label htmlFor="email" className="text-zinc-700">Mensaje</label>
+        <label htmlFor="email" className="text-zinc-700 lg:text-base text-sm">Mensaje</label>
         <textarea
           id="message"
-          className="p-4 bg-zinc-100 rounded"
+          className="p-4 bg-zinc-100 rounded lg:text-base text-sm"
           placeholder="Deja tu mensaje"
           value={form.message}
           onChange={(e) => handleInputChange(e)}

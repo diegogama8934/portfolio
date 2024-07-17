@@ -6,7 +6,7 @@ export function NavBar() {
 
 
   return (
-    <nav className="w-full lg:flex lg:justify-center">
+    <nav className="w-full lg:flex lg:justify-center sticky top-0 bg-white">
       {
         porfolioSections.map((section, index) => (<ActiveLink key={index} href={section.href} pageName={section.pageName} />))
       }

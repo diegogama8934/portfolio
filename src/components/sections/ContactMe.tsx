@@ -12,7 +12,7 @@ export function ContactMe() {
 
       <hr />
 
-      <p className="text-zinc-700">Si buscas colaborar, deseas desarrollar tu proyecto o te interesó mi perfil, contáctame...</p>
+      <p className="text-zinc-700 lg:text-base text-sm">Si buscas colaborar, deseas desarrollar tu proyecto o te interesó mi perfil, contáctame:</p>
 
       <ContactForm />
 
