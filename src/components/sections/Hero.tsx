@@ -10,8 +10,8 @@ export function Hero() {
         <h2 className="text-zinc-500 font-bold lg:text-2xl text-lg">Hola!</h2>
         <h1 className="text-zinc-800 font-bold lg:text-4xl text-2xl">Soy Diego Martínez</h1>
         <p className="text-zinc-500 lg:text-xl text-base">Y soy desarrollador front-end <span className="hidden lg:inline">👉🏽</span> <span className="lg:hidden">👇🏽</span></p>
-        <button className="hidden w-full lg:block bg-zinc-900 text-zinc-300 rounded-md p-4 mt-12 hover:bg-zinc-800 transition-colors">Perfil de Github</button>
-        <button className="hidden w-full lg:block bg-blue-900 text-zinc-300 rounded-md p-4 hover:bg-blue-800 transition-colors">Linked In</button>
+        <button className="hidden w-96 lg:block bg-zinc-900 text-zinc-300 rounded-md p-4 mt-12 hover:bg-zinc-800 transition-colors">Perfil de Github</button>
+        <button className="hidden w-96 lg:block bg-blue-900 text-zinc-300 rounded-md p-4 hover:bg-blue-800 transition-colors">Linked In</button>
       </div>
 
       <Image
