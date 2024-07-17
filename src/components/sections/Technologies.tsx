@@ -9,7 +9,7 @@ export function Technologies() {
   return (
     <div className="flex flex-col gap-12">
       <div className="flex justify-between">
-        <h2 className="text-3xl text-zinc-700 font-bold">Tecnologías 🕹️</h2>
+        <h2 className="lg:text-3xl text-xl text-zinc-700 font-bold">Tecnologías 🕹️</h2>
         <Link className="text-blue-900 font-bold text-lg" href="/aboutMe">Ver más</Link>
       </div>
       <hr />

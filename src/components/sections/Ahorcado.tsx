@@ -20,7 +20,7 @@ export function Ahorcado({ word }: { word: string }) {
   return (
     <div className="hidden lg:flex flex-col gap-12">
 
-      <h2 className="text-3xl text-zinc-700 font-bold">Ahorcado</h2>
+      <h2 className="lg:text-3xl text-xl text-zinc-700 font-bold">Ahorcado</h2>
 
       <hr />
 
