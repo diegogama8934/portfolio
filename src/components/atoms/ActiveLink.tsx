@@ -9,7 +9,7 @@ export function ActiveLink({ href, pageName }: ActiveLink) {
   return (
     <Link
       href={href}
-      className={`py-8 hover:bg-zinc-200 w-40 text-center ${pathName == href && "bg-zinc-100 border-b-2 border-blue-400"}`}>
+      className={`hidden lg:block md:py-8 md:hover:bg-zinc-200 md:w-40 md:text-center ${pathName == href && "md:bg-zinc-100 md:border-b-2 md:border-blue-400"}`}>
       {pageName}
     </Link>
   );

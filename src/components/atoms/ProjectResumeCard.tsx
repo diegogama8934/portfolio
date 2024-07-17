@@ -5,7 +5,7 @@ export function ProjectResumeCard({ name, description, link, objective }: Projec
   // TODO: Change name
 
   return (
-    <div className="flex flex-col gap-2 w-96 p-8 rounded-lg bg-white shadow items-end">
+    <div className="flex flex-col gap-2 lg:w-96 p-8 rounded-lg bg-white shadow items-end">
 
       <div className="self-start">
         <h3 className="text-xl text-zinc-700">{name}</h3>
@@ -14,7 +14,7 @@ export function ProjectResumeCard({ name, description, link, objective }: Projec
 
       <p className="text-zinc-500">{description}</p>
 
-      <Link className="block p-2 rounded-md w-fit text-sky-800 text-sm" target="_blank" href={link}>Visita la página</Link>
+      <Link className="block p-2 rounded-md w-fit text-sky-800 text-sm mt-2" target="_blank" href={link}>Visita la página</Link>
     </div>
   );
 }

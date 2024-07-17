@@ -15,8 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={publicSans.className}>{children}</body>
+    <html lang="en" className="w-screen">
+      <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+      </head>
+      <body className={publicSans.className + " w-full"}>{children}</body>
     </html>
   );
 }

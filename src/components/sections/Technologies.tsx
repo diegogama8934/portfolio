@@ -13,7 +13,7 @@ export function Technologies() {
         <Link className="text-blue-900 font-bold text-lg" href="/aboutMe">Ver más</Link>
       </div>
       <hr />
-      <div className="flex gap-8">
+      <div className="flex gap-8 lg:flex-row flex-col">
         {
           technologiesPool.map((tech) => <TechnologyItem key={tech.name} {...tech} />)
         }

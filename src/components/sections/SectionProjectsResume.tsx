@@ -14,7 +14,7 @@ export function ProjectsResume() {
       </div>
       <hr />
 
-      <div className="flex gap-8">
+      <div className="flex flex-col lg:flex-row gap-8">
 
         {
           projectsResume.map(project => <ProjectResumeCard key={project.name} {...project} />)
