@@ -4,7 +4,7 @@ export default function SectionsLayout({ children }: { children: React.ReactNode
 
 
   return (
-    <main className="flex flex-col w-full lg:gap-24 gap-8">
+    <main className="flex flex-col w-full lg:gap-12 gap-8">
 
       <NavBar />
 
